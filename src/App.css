@@ -36,6 +36,9 @@
   width: 100%;
   height: 250px;
 }
+.searchImage{
+  width: 2em;
+}
 .movie-card {
   transition: transform 0.3s ease-in-out;
 }

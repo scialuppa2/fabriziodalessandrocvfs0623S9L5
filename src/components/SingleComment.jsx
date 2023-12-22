@@ -1,4 +1,3 @@
-// SingleComment.jsx
 import { Button, ListGroup } from 'react-bootstrap';
 
 const SingleComment = ({ comment }) => {
