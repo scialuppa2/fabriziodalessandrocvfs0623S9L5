@@ -17,9 +17,9 @@ function App() {
         <MyNavbar />
       </header>
       <MyHero />
-      <MovieGallery apiEndpoint="star+wars" title="Star Wars Saga" />
+      <MovieGallery apiEndpoint="star+wars" title="Star Wars Series" />
       <MovieGallery apiEndpoint="batman" title="Batman Series" />
-      <MovieGallery apiEndpoint="marvel" title="Marvel Series" />
+      <MovieGallery apiEndpoint="harry+potter" title="Harry Potter Series" />
       <MyFooter />
     </div>
   );
