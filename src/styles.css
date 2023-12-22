@@ -1,0 +1,29 @@
+/* Header */
+.header-main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    width: 95%;
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .header-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .genres-button {
+    margin-left: 30px;
+    background-color: transparent;
+    border: white 1px solid;
+  }
+  
+  .genres-button:hover {
+    background-color: transparent;
+    border: gray 1px solid;
+  }
+  
