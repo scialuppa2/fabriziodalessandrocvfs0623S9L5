@@ -124,5 +124,3 @@ const MyFooter = () => (
 );
 
 export default MyFooter;
-
-// http://www.omdbapi.com/?apikey=cdbdad0e&s=avengers

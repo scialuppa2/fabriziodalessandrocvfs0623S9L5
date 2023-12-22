@@ -40,7 +40,6 @@ class MyNavbar extends React.Component {
       .then((response) => response.json())
       .then((data) => {
         if (data.Search) {
-          // Aggiorna lo stato con i risultati ottenuti
           this.props.setSearchResults(data.Search);
         } else {
           this.props.setSearchResults([]);

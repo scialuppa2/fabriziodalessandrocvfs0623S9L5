@@ -6,7 +6,6 @@ const SearchResults = ({ searchResults }) => {
   const [results, setResults] = useState(searchResults);
 
   useEffect(() => {
-    // Aggiorna lo stato quando la prop searchResults cambia
     setResults(searchResults);
   }, [searchResults]);
 

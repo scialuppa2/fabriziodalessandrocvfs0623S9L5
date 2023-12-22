@@ -50,7 +50,6 @@ const MovieGallery = ({ apiEndpoint, title }) => {
         ))}
       </Row>
 
-      {/* Modale per l'area dei commenti */}
       <Modal show={showModal} onHide={handleCloseModal}>
         <Modal.Header closeButton>
           <Modal.Title>{selectedMovie && selectedMovie.Title}</Modal.Title>
